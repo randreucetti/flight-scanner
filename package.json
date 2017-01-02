@@ -4,7 +4,7 @@
   "description": "Dashboard to monitor and receive alerts for changes airline flight prices",
   "main": "index.js",
   "bin": {
-    "swa": "index.js"
+    "flights": "index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "date-format": "0.0.2",
     "osmosis": "^1.0.2",
     "pretty-ms": "^2.1.0",
+    "request": "^2.79.0",
     "twilio": "^2.9.2"
   }
 }
